@@ -18,19 +18,13 @@ This executes all tests whose box has been checked below (by default all). The e
 
 Here is a list of functions and their supported types that you can use to write your testcases:
 
-| Available functions  | Supported types |
-
-| ------------- | ------------- |
-
-| `Assert.ok()`  | `bool`  |
-
-| `Assert.equal()`  | `uint`, `int`, `bool`, `address`, `bytes32`, `string`  |
-
-| `Assert.notEqual()` | `uint`, `int`, `bool`, `address`, `bytes32`, `string`  |
-
-| `Assert.greaterThan()` | `uint`, `int` |
-
-| `Assert.lesserThan()` | `uint`, `int` |
+| Available functions    | Supported types |
+| ---------------------- | --------------- |
+| `Assert.ok()`          | `bool`          |
+| `Assert.equal()`       | `uint`, `int`, `bool`, `address`, `bytes32`, `string`  |
+| `Assert.notEqual()`    | `uint`, `int`, `bool`, `address`, `bytes32`, `string`  |
+| `Assert.greaterThan()` | `uint`, `int`   |
+| `Assert.lesserThan()`  | `uint`, `int`   |
 
 see [https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol](https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol) for some code sample
 
