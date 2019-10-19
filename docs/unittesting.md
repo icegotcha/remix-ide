@@ -2,12 +2,13 @@ Unit Testing
 ============
 
 Click the "double check" (
-![Double check](images/a-user-testing3.png)
+![Double check](images/a-user-testing-icon.png)
 ) icon to get to the unit testing plugin.  If you don't see this icon, go to the plugin manager and load up the unit testing plugin.
 
-![Unit Testing Section](images/a-unit-testing4.png)
+![Unit Testing Section](images/a-unit-testing-from-pm.png)
 
-![Unit Testing Section](images/a-unit-testing2.png)
+![Unit Testing Section](images/a-unit-testing-feature.png)
+
 
 Generate test File
 ------------------
@@ -20,7 +21,7 @@ Run Tests
 
 This executes all tests whose box has been checked below (by default all). The execution is run in a separate environment and the result is displayed below.
 
-![Unit Testing Section](images/a-unit-testing5.png)
+![Unit Testing Section](images/a-unit-testing-run-result.png)
 
 Here is a list of functions and their supported types that you can use to write your testcases:
 
