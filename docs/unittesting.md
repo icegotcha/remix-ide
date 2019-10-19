@@ -1,9 +1,13 @@
 Unit Testing
 ============
 
-Click the "double check" icon to get to the unit testing plugin.  If you don't see this icon, go to the plugin manager and load up the unit testing plugin.
+Click the "double check" (
+![Double check](images/a-user-testing3.png)
+) icon to get to the unit testing plugin.  If you don't see this icon, go to the plugin manager and load up the unit testing plugin.
 
-![](images/a-unit-testing1.png)
+![Unit Testing Section](images/a-unit-testing4.png)
+
+![Unit Testing Section](images/a-unit-testing2.png)
 
 Generate test File
 ------------------
@@ -16,6 +20,8 @@ Run Tests
 
 This executes all tests whose box has been checked below (by default all). The execution is run in a separate environment and the result is displayed below.
 
+![Unit Testing Section](images/a-unit-testing5.png)
+
 Here is a list of functions and their supported types that you can use to write your testcases:
 
 | Available functions    | Supported types |
@@ -26,7 +32,7 @@ Here is a list of functions and their supported types that you can use to write 
 | `Assert.greaterThan()` | `uint`, `int`   |
 | `Assert.lesserThan()`  | `uint`, `int`   |
 
-see [https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol](https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol) for some code sample
+Click [here](https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol) for some code sample.
 
 Continuous integration
 ----------------------
