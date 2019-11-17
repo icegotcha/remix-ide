@@ -3,23 +3,22 @@ Unit Testing
 
 Click the
 ![double check](images/a-user-testing-icon.png)
- icon to get to the "Solidity Unit Testing" plugin.  If you don't see this icon, go to the plugin manager (by click the ![plug](images/a-plug.png) icon) and load up the unit testing  plugin.
+ icon to get to the "Solidity Unit Testing" plugin. If you don't see this icon, go to the plugin manager (by click the ![plug](images/a-plug.png) icon) and load up the unit testing plugin.
 
 ![](images/a-unit-testing-from-pm.png)
 
 ![](images/a-unit-testing-feature.png)
 
-
-Generate test File
+Generating Test File
 ------------------
-
-This create a new solidity file in the current folder suffixed with `_test`.
+Click the button "Generate test file" to create a new solidity file in the current folder.
+This create a new solidity file suffixed with `_test`.
 This file contains the minimum you need for running unit testing.
 
-Run Tests
----------
+Running Tests
+------------------
 
-This executes all tests whose box has been checked below (by default all). The execution is run in a separate environment and the result is displayed below.
+Click the button "Run tests" to executes all tests whose box has been checked below (by default all). The execution is run in a separate environment and the result is displayed below.
 
 ![](images/a-unit-testing-run-result.png)
 
