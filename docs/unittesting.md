@@ -1,27 +1,27 @@
 Unit Testing
 ============
 
-Click the "double check" (
-![Double check](images/a-user-testing-icon.png)
-) icon to get to the unit testing plugin.  If you don't see this icon, go to the plugin manager and load up the unit testing plugin.
+Click the
+![double check](images/a-user-testing-icon.png)
+ icon to get to the "Solidity Unit Testing" plugin.  If you don't see this icon, go to the plugin manager (Click the ![plug](images/a-plug.png) icon) and load up the unit testing  plugin.
 
-![Unit Testing Section](images/a-unit-testing-from-pm.png)
+![](images/a-unit-testing-from-pm.png)
 
-![Unit Testing Section](images/a-unit-testing-feature.png)
+![](images/a-unit-testing-feature.png)
 
 
 Generate test File
 ------------------
 
 This create a new solidity file in the current folder suffixed with `_test`.
-This file contains the minimun you need for running unit testing.
+This file contains the minimum you need for running unit testing.
 
 Run Tests
 ---------
 
-This executes all tests whose box has been checked below (by default all). The execution is run in a separate environment and the result is displayed below.
+This executes all tests whose box has been checked below (by default all). The execution is run in a separpate environment and the result is displayed below.
 
-![Unit Testing Section](images/a-unit-testing-run-result.png)
+![](images/a-unit-testing-run-result.png)
 
 Here is a list of functions and their supported types that you can use to write your testcases:
 
@@ -33,7 +33,7 @@ Here is a list of functions and their supported types that you can use to write 
 | `Assert.greaterThan()` | `uint`, `int`   |
 | `Assert.lesserThan()`  | `uint`, `int`   |
 
-Click [here](https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol) for some code sample.
+Click [here](https://github.com/ethereum/remix/blob/master/remix-tests/tests/examples_4/SafeMath_test.sol) for a test file example
 
 Continuous integration
 ----------------------
