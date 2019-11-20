@@ -132,7 +132,7 @@ class CompileTab extends ViewPlugin {
         })
       } else {
         const count = (data.errors ? data.errors.filter(error => error.severity === 'error').length : 0 + data.error ? 1 : 0)
-        this.emit('statusChanged', {key: count, title: 'compilation failed', type: 'error'})
+        this.emit('statusChanged', {key: count, title: `compilation failed with ${count} error${count.length > 1 ? 's' : ''}`, type: 'error'})
       }
       // Update contract Selection
       let contractMap = {}
@@ -141,7 +141,11 @@ class CompileTab extends ViewPlugin {
       yo.update(this._view.contractSelection, contractSelection)
 
       if (data['error']) {
-        this.renderer.error(data['error'].formattedMessage, this._view.errorContainer, {type: data['error'].severity || 'error'})
+        this.renderer.error(
+          data['error'].formattedMessage || data['error'],
+          this._view.errorContainer,
+          {type: data['error'].severity || 'error'}
+        )
         if (data['error'].mode === 'panic') {
           return modalDialogCustom.alert(yo`
             <div><i class="fas fa-exclamation-circle ${css.panicError}" aria-hidden="true"></i>
